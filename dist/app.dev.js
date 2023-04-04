@@ -51,6 +51,9 @@ var handleEqualsClick = function handleEqualsClick() {
   }
 
   screen.innerText = result;
+  firstNumber = result;
+  secondNumber = "";
+  operator = "";
 };
 
 var handleClearClick = function handleClearClick() {
