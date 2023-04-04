@@ -41,8 +41,10 @@ const handleEqualsClick = () => {
     default:
       break;
   }
-
   screen.innerText = result;
+  firstNumber = result;
+  secondNumber = "";
+  operator = "";
 };
 
 const handleClearClick = () => {
